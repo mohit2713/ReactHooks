@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import UseReduce from "./HooksComponent/UseReduce";
+import UseEffect from "./HooksComponent/UseEffect";
+import UseRef from "./HooksComponent/UseRef";
+import UseLayout from "./HooksComponent/UseLayout";
+import UseImperativeHandle from "./HooksComponent/UseImperativeHandle";
+import ContextTutorial from "./HooksComponent/useContex/ContextTutorial";
+import UseMemo from "./HooksComponent/UseMemo";
+import TestHooks from "./HooksComponent/TestHooks";
+import Parent from "./ReactMemo/Parent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseReduce /> */}
+      {/* <UseEffect /> */}
+      {/* <UseRef /> */}
+      {/* <UseLayout /> */}
+      {/* <UseImperativeHandle /> */}
+      {/* <ContextTutorial /> */}
+      {/* <UseMemo /> */}
+      {/* <TestHooks /> */}
+      <Parent />
     </div>
   );
 }
